@@ -67,8 +67,8 @@ module.exports = {
       });
 
       const totalCommands = commands.size;
-      msg += `\n\n〓〓〓〓〓〓〓〓〓〓〓\n➪[📅] Total Commands [${totalCommands}]\n➪[🛄] OWNER: The GODDESS Aesther\n➪[🔱] NB: use called in any report`;
-      msg += `\n\n/// 💬 AESTHER BOT ////`;
+      msg += `\n\n〓〓〓〓〓〓〓〓〓〓〓\n➪[📅] Total Commands [${totalCommands}]\n➪[🛄] OWNER: Rahim Btchb Rahim\n➪[🔱] NB: use called in any report`;
+      msg += `\n\n/// 💬Rahim BOT ////`;
       msg += ``;
 
       const response = await message.reply({ body: msg });
@@ -99,7 +99,7 @@ module.exports = {
    〉🔵Time per command:\n ▶︎${configCommand.countDown || 1}s\n
    〉🔵[Author]:\n▶︎${author}\n
 🟢𝗨𝗦𝗔𝗚𝗘⚪\n--------------------------------------\n
-▶︎ ${usage}\n--------------------------------------\n🟢 by-AE-STER ⚪`;
+▶︎ ${usage}\n--------------------------------------\n🟢 by-Rahim ⚪`;
 
         const responseMessage = await message.reply(response);
         deleteMessageAfterOneMinute(responseMessage.messageID);
@@ -119,4 +119,4 @@ function roleTextToString(roleText) {
     default:
       return "Unknown role";
   }
-            }
+      }
